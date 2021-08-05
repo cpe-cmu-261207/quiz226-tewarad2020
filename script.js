@@ -18,7 +18,7 @@ btn_toggle.onclick = () => {
         author.innerHTML = 630610731 + count
         status = false
     }else {
-        btn_toggle.innerHTML = 'Show Author'
+        btn_toggle.innerHTML = 'Show Calculation'
         author.innerHTML = '630610731 Tewarad Somrad'
         status = true
     }
@@ -58,6 +58,7 @@ search.onclick = () => {
 
 reset.onclick = () => {
     count = 0
+    btn_toggle.innerHTML = 'Show Calculation'
     author.innerHTML = '630610731 Tewarad Somrad'
     status = true
     document.querySelector('#length').value = 5
